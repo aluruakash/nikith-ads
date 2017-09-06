@@ -1,0 +1,312 @@
+@media(min-width: 768px){
+	#navbar ul{
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		width: 530px;
+	}
+}
+@media(max-width: 767px){
+	img.head-logo{
+		width: 90px;
+		top:2px;
+		position: absolute;
+	}
+	img.clients{
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	img.client34{
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	img.client28{
+		width: 15%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	img.client23{
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	img.client3{
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	img.client29{
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.test-row{
+		background-color: #fff;
+		height: auto;
+		opacity: .9;
+	}
+}
+@media(min-width: 768px) and (max-width: 1199px){
+	img.head-logo{
+		width: 90px;
+		top:2px;
+		left: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+	}
+	img.clients{
+		width: 10%;
+		float: left;
+		margin:10px;
+	}
+	img.client34{
+		width: 5%;
+		margin:20px;
+		float: left;
+	}
+	img.client28{
+		width: 15%;
+		margin:20px;
+		float: left;
+	}
+	img.client23{
+		width: 15%;
+		margin:20px;
+		float: left;
+	}
+	img.client3{
+		width: 15%;
+		margin:20px;
+		float: left;
+	}
+	img.client29{
+		width: 12%;
+		margin:20px;
+		float: left;
+	}
+
+}
+@media(min-width: 1200px){
+	img.head-logo{
+		width: 150px;
+		top:0px;
+		position: absolute;
+	}
+	.demo-2 h3{
+		position: absolute;
+		top:205px;
+	}
+	img.clients{
+		width: 10%;
+		margin: 20px;
+		float: left;
+	}
+	img.client34{
+		width: 5%;
+		margin:20px;
+		float: left;
+	}
+	img.client28{
+		width: 15%;
+		margin:20px;
+		float: left;
+	}
+	img.client23{
+		width: 10%;
+		margin: 20px;
+		float: left;
+	}
+	img.client3{
+		width: 10%;
+		margin: 20px;
+		float: left;
+	}
+	img.client29{
+		width: 10%;
+		margin: 20px;
+		float: left;
+	}
+	.test-row{
+		background-color: #fff;
+		height: 350px;
+		opacity: .9;
+	}
+}
+
+.container-fluid{
+	background: #1ca0de;
+}
+h3.company{
+	padding-bottom: 10px !important;
+}
+ul.excellence li{
+	padding: 7px;
+	list-style-type: disc;
+	margin-left: 30px;
+}
+.container h3{
+	color: #1ca0de;
+}
+input{
+	color: black;
+}
+@media(max-width: 1199px){
+	img.power-img{
+		width: 34px;
+		height: 34px;
+		position: absolute;
+		left: 150px;
+		right: 0;
+		top:35px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	p.powered{
+		color: #fff;
+		font-size:14px;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		top:50px;
+		width: 165px;
+	}
+	.last-w3layouts{
+		height: 80px;
+	}
+}
+@media(min-width: 1200px){
+	img.power-img{
+		width: 3%;
+		position: absolute;
+		right: 45px;
+	}
+	p.powered{
+		color: #fff;
+		font-size:14px;
+		position: absolute;
+		right: 60px;
+		top:20px;
+	}
+	.last-w3layouts{
+		height: 50px;
+	}
+}
+
+
+
+.carousel {
+    margin-bottom: 0px;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+a.right {
+	right: 0px;
+	top:0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: absolute;
+	line-height: 30px;
+}
+a.left {
+	left: 0px;
+	top:0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: absolute;
+	line-height: 30px;
+}
+/* The indicators */
+.carousel-indicators {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: -20px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+	background: #428bca;
+}
+.special-agileinfo{
+	background-color: #1ca0de;
+}
+.special-agileinfo .row{
+
+}
+.special-agileinfo .container-fluid{
+
+}
+#Carousel{
+	background-color: #1ca0de;
+	height: auto;
+}
+.carousel-inner{
+
+}
+.thumbnail{
+	margin-top: 50px;
+}
+h3.strength{
+	text-align: center;
+	font-size: 30px!important;
+}
+.row a{
+	text-decoration: none;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+	font-family: 'Oswald', sans-serif !important;
+}
+p{
+	font-weight: bold !important;
+	text-align:justify;
+}
+li{
+	font-weight: bold !important;
+}
+.submit{
+	background-color: #1ca0de;
+	width: 80px;
+	line-height: 30px;
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.contact-w3layouts p{
+	line-height: 2em !important;
+}
+.last-w3layouts p{
+	font-weight: normal !important;
+}
