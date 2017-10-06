@@ -742,7 +742,7 @@ section.inner-w3ls .breadcrumb>.active {
 }
 /*-- about section --*/
 section.about-w3layouts,section.team-w3layouts,section.video-w3ls,section.results-w3ls,section.contact-w3ls {
-	padding:50px 0;
+	padding:25px 0;
 }
 section.about-w3layouts h3,section.team-w3layouts h3,section.video-w3ls h3,section.schedule-w3layouts h3,section.results-w3ls h3,section.contact-w3ls h3 {
 	font-size:35px;

@@ -5,7 +5,7 @@
 		right: 0;
 		margin-left: auto;
 		margin-right: auto;
-		width: 530px;
+		width: 400px;
 	}
 }
 @media(max-width: 767px){
@@ -151,9 +151,9 @@ h3.company{
 	padding-bottom: 10px !important;
 }
 ul.excellence li{
-	padding: 7px;
+	padding: 5px;
 	list-style-type: disc;
-	margin-left: 30px;
+	margin-left: 30px !important;
 }
 .container h3{
 	color: #1ca0de;
@@ -161,49 +161,7 @@ ul.excellence li{
 input{
 	color: black;
 }
-@media(max-width: 1199px){
-	img.power-img{
-		width: 34px;
-		height: 34px;
-		position: absolute;
-		left: 150px;
-		right: 0;
-		top:35px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	p.powered{
-		color: #fff;
-		font-size:14px;
-		position: absolute;
-		margin-left: auto;
-		margin-right: auto;
-		left: 0;
-		right: 0;
-		top:50px;
-		width: 165px;
-	}
-	.last-w3layouts{
-		height: 80px;
-	}
-}
-@media(min-width: 1200px){
-	img.power-img{
-		width: 3%;
-		position: absolute;
-		right: 45px;
-	}
-	p.powered{
-		color: #fff;
-		font-size:14px;
-		position: absolute;
-		right: 60px;
-		top:20px;
-	}
-	.last-w3layouts{
-		height: 50px;
-	}
-}
+
 
 
 
@@ -291,9 +249,19 @@ h3{
 p{
 	font-weight: bold !important;
 	text-align:justify;
+	margin:0;
+	padding-bottom: 5px !important;
+	line-height: 1.6em !important;
 }
 li{
 	font-weight: bold !important;
+	line-height: 1.4em !important;
+}
+ul.sub-excellence li{
+	margin:0 !important;
+	padding:0 !important;
+	margin-top:5px !important;
+	margin-left: 30px !important;
 }
 .submit{
 	background-color: #1ca0de;
@@ -309,4 +277,47 @@ li{
 }
 .last-w3layouts p{
 	font-weight: normal !important;
+}
+@media(max-width: 1199px){
+	img.power-img{
+		width: 34px;
+		height: 34px;
+		position: absolute;
+		left: 90px;
+		right: 0;
+		top:35px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	p.powered{
+		color: #fff;
+		font-size:14px;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		top:50px;
+		width: 165px;
+	}
+	.last-w3layouts{
+		height: 80px;
+	}
+}
+@media(min-width: 1200px){
+	img.power-img{
+		width: 3%;
+		position: absolute;
+		right: 45px;
+	}
+	p.powered{
+		color: #fff;
+		font-size:14px;
+		position: absolute;
+		right: 60px;
+		top:20px;
+	}
+	.last-w3layouts{
+		height: 50px;
+	}
 }
